@@ -12,4 +12,8 @@
    e- 1, 1, 2, 3, 5, 8, 13 //
    f- 2,10, 12, 16, 17, 18, 19, 200
    
-4) 
+4) tempo = distância'100' / (velocidade do carro'110' + velocidade do caminhão'80') //// tempo = 100/(110+80) = 0,625 horas
+
+Cálculo da distância dos 2 até o ponto de encontro:
+- distância do carro= 110 x 0,625 = 68,75 km direção a Franca;
+- distância do caminhão = 80 x 0,625 = 50 km direção a Ribeirão Preto.
