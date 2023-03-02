@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./estilo3.css" type="text/css" rel="stylesheet" />
+    <title>Mensal</title>
+</head>
+<body>
+    <h1 class="texto3">FATURAMENTO MENSAL</h1>
+    <div class="box">
+        <label for="estado">Selecione um Estado:</label>
+        <select id="estado">
+            <option>Selecione uma opção</option>
+            <option value="sp">São Paulo</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="es">Espírito Santo</option>
+            <option value="outrosEstados">Outros Estados</option>
+        </select>
+        <button onclick="calcularPercentual()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="./mensal.js"></script>
+</body>
+</html>
